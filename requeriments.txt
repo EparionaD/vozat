@@ -1,0 +1,7 @@
+Django==1.11.8
+python-vlc
+psycopg2
+Pillow
+Unipath
+django-multiselectfield
+google-cloud-speech
