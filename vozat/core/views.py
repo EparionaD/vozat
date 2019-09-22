@@ -79,7 +79,8 @@ def grabar_audio(carpeta, nombre, stream, tiempo):
 
 def crear_carpetas(nombre):
     
-    dia = time.gmtime()
+    #dia = time.gmtime()
+    dia = time.localtime()
     fecha = time.strftime('%d-%m-%Y', dia)
     carpeta = '/home/eparionad/Descargas/%s' % os.path.join(fecha, nombre)
 
